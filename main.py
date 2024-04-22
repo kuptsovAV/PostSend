@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import PyPDF2
 
-app = Flask(__PostSend__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
